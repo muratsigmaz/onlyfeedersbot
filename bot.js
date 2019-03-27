@@ -65,7 +65,7 @@ client.on('message', msg => {
 
 client.on('message', msg => {
   if (msg.content === '!ban özel') {
-    msg.reply('AL AĞZINA.... https://gph.is/145tQl0');
+    msg.reply('AL AĞZINA https://gph.is/145tQl0');
   }
 });
 
