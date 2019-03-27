@@ -20,17 +20,7 @@ client.on('message', msg => {
 		}
 	}
 });
-if (msg.content.toLowerCase() === prefix + 'sa') {
-    msg.reply('Aleyküm selam!');
-  }
-  if (msg.content.toLowerCase() === prefix + 'yaz') {
-    msg.delete();
-    msg.channel.sendMessage(msg.content);
-  }
-  if (msg.content.toLowerCase() === prefix + 'temizle') {
-    msg.channel.bulkDelete(100);
-    msg.channel.sendMessage("100 Mesajı Yok Ettim amminiyum!");
-  }
+
 client.elevation = message => {
   if(!message.guild) {
 	return; }
