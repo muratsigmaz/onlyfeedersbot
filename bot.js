@@ -16,6 +16,18 @@ client.on('message', msg => {
 });
 
 client.on('message', msg => {
+  if (msg.content === 'Sa') {
+    msg.reply('aleyküm selam dostum hoşgeldin daha ileriye bizimle!');
+  }
+});
+
+client.on('message', msg => {
+  if (msg.content === 'selam') {
+    msg.reply('aleyküm selam dostum hoşgeldin daha ileriye bizimle!');
+  }
+});
+
+client.on('message', msg => {
   if (msg.content === 'sunucu') {
     msg.reply('sen sunucuyu kafana takma biz büyüyoruz bak dalgana genç!');
   }
