@@ -11,4 +11,4 @@ client.on('message', msg => {
   }
 });
 
-client.login('NTYwMjg1NDIxMDU4MzkyMDY1.D3xvcQ.DmUP3_sdz-Zcvnv4M0x7VHBUGyQ');
+client.login('naberlan');
