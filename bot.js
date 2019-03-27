@@ -39,4 +39,10 @@ client.on('message', msg => {
   }
 });
 
+client.on('message', msg => {
+  if (msg.content === 'elveda') {
+    msg.reply('dur gitme eggys sana muhtacım elimde sapım sana muhtacım :( xD!');
+  }
+});
+
 client.login(process.env.BOT_TOKEN);
