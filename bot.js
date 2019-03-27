@@ -37,7 +37,7 @@ client.on('message', msg => {
 });
 
 client.on('message', msg => {
-  if (msg.content === 'sa') {
+  if (msg.content === 'SA') {
     msg.reply('**Selam Hoşgeldin.**                                                          `>`<http://instagram.com/muratsigmaz>` takip etmeyi unutma! ♥ Eggysden Hızlıyım mk');
   }
 });
