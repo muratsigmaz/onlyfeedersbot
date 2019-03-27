@@ -10,8 +10,32 @@ client.on('ready', () => {
 });
 
 client.on('message', msg => {
-  if (msg.content === 'ping') {
-    msg.reply('Pong!');
+  if (msg.content === 'sa') {
+    msg.reply('aleyküm selam dostum hoşgeldin daha ileriye bizimle!');
+  }
+});
+
+client.on('message', msg => {
+  if (msg.content === 'sunucu') {
+    msg.reply('sen sunucuyu kafana takma biz büyüyoruz bak dalgana genç!');
+  }
+});
+
+client.on('message', msg => {
+  if (msg.content === 'murat') {
+    msg.reply('yavaş ol murat derken bile besmele çekmiyorsun sakin bölgeye geç!');
+  }
+});
+
+client.on('message', msg => {
+  if (msg.content === 'link') {
+    msg.reply('hayır anlamıyorum napcan linki arkadaşını çağırcaksan tamam ama baskın filan sker atarım!');
+  }
+});
+
+client.on('message', msg => {
+  if (msg.content === 'naber') {
+    msg.reply('gelmedi senden bi haber merak ettim öldünmü diye sorcam banane mk!');
   }
 });
 
