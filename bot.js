@@ -14,33 +14,27 @@ client.on('ready', () => {
 
 
 client.on('message', msg => {
-  if (msg.content.toLowerCase() === 'sa') {
-		if (!msg.guild.member(msg.author).hasPermission("BAN_MEMBERS")) {
-			msg.author.sendMessage('Aleyküm selam, hoş geldin Dahada İleri Only Feeders'); 
-		} else {
-		msg.reply('Aleyküm selam, hoş geldin Dahada İleri Only Feeders');
-		}
-	}
+  if (msg.content === 'sa') {
+    msg.reply('Aleyküm Selam Hoşgeldin Bizimle Daha İleriye !');
+  }
 });
 
 client.on('message', msg => {
-  if (msg.content.toLowerCase() === 'sunucu') {
-		if (!msg.guild.member(msg.author).hasPermission("BAN_MEMBERS")) {
-			msg.author.sendMessage('sunucuyu sorma kafanıda fazla yorma dahada büyüyecek'); 
-		} else {
-		msg.reply('sunucuyu sorma kafanıda fazla yorma dahada büyüyecek');
-		}
-	}
+  if (msg.content === 'Sunucu') {
+    msg.reply('Sunucuyu Sen Boşversene Bak Dalgana Biz Büyüyoruz At Kafalılar Düşünsün!');
+  }
+});
+
+cclient.on('message', msg => {
+  if (msg.content === 'murat') {
+    msg.reply('Orda Dur Bakalım Murat Derken Bari Besmele Çek Mk Yarması seni!');
+  }
 });
 
 client.on('message', msg => {
-  if (msg.content.toLowerCase() === 'murat') {
-		if (!msg.guild.member(msg.author).hasPermission("BAN_MEMBERS")) {
-			msg.author.sendMessage('murat derken bile besmele çekmiyorsun sen kendini ne sanıyorsun ?'); 
-		} else {
-		msg.reply('murat derken bile besmele çekmiyorsun sen kendini ne sanıyorsun ?');
-		}
-	}
+  if (msg.content === 'link') {
+    msg.reply('Napcan Aşiretinimi Çağırcan Çağır Gelsin Mk he Diyorsan Arkadaşımı Çağırcam Başım Üzerine!');
+  }
 });
 
 client.elevation = message => {
