@@ -63,10 +63,6 @@ client.on('message', msg => {
   }
 });
 
-client.on('message', msg => {
-  if (msg.content === '!ban özel') {
-    msg.reply('AL AĞZINA https://media.giphy.com/media/uC9e2ojJn1ZXW/giphy.gif');
-  }
-});
+
 
 client.login(process.env.BOT_TOKEN);
