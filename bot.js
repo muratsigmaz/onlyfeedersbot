@@ -23,6 +23,26 @@ client.on('message', msg => {
 	}
 });
 
+client.on('message', msg => {
+  if (msg.content.toLowerCase() === 'sunucu') {
+		if (!msg.guild.member(msg.author).hasPermission("BAN_MEMBERS")) {
+			msg.author.sendMessage('sunucuyu sorma kafanıda fazla yorma dahada büyüyecek'); 
+		} else {
+		msg.reply('sunucuyu sorma kafanıda fazla yorma dahada büyüyecek');
+		}
+	}
+});
+
+client.on('message', msg => {
+  if (msg.content.toLowerCase() === 'murat') {
+		if (!msg.guild.member(msg.author).hasPermission("BAN_MEMBERS")) {
+			msg.author.sendMessage('murat derken bile besmele çekmiyorsun sen kendini ne sanıyorsun ?'); 
+		} else {
+		msg.reply('murat derken bile besmele çekmiyorsun sen kendini ne sanıyorsun ?');
+		}
+	}
+});
+
 client.elevation = message => {
   if(!message.guild) {
 	return; }
