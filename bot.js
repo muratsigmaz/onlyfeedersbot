@@ -17,13 +17,19 @@ client.on('message', msg => {
 
 client.on('message', msg => {
   if (msg.content === 'Sa') {
-    msg.reply('aleyküm selam dostum hoşgeldin daha ileriye bizimle!');
+    msg.reply('Selam Hoşgeldin                                                            `>`http://instagram.com/muratsigmaz takip etmeyi unutma! ♥ Eggysden Hızlıyım mk');
   }
 });
 
 client.on('message', msg => {
   if (msg.content === 'selam') {
-    msg.reply('aleyküm selam dostum hoşgeldin daha ileriye bizimle!');
+    msg.reply('Selam Hoşgeldin                                                            `>`http://instagram.com/muratsigmaz takip etmeyi unutma! ♥ Eggysden Hızlıyım mk');
+  }
+});
+
+client.on('message', msg => {
+  if (msg.content === 'Selam') {
+    msg.reply('Selam Hoşgeldin                                                            `>`http://instagram.com/muratsigmaz takip etmeyi unutma! ♥ Eggysden Hızlıyım mk');
   }
 });
 
