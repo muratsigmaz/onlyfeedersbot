@@ -11,8 +11,7 @@ client.on('ready', () => {
 
 client.on('message', msg => {
   if (msg.content === 'sa') {
-    msg.reply('Selam, hoşgeldin.
-`>`http://instagram.com/muratsigmaz takip etmeyi unutma! <3 Eggysden Hızlıyım mk');
+    msg.reply('Selam Hoşgeldin `>`http://instagram.com/muratsigmaz takip etmeyi unutma! <3 Eggysden Hızlıyım mk');
   }
 });
 
