@@ -27,7 +27,7 @@ client.on('message', msg => {
   }
 });
 
-clclient.on('message', msg => {
+client.on('message', msg => {
   if (msg.content === 'Selamlar') {
     msg.reply('**Selam Hoşgeldin.**                                                          `>`<http://instagram.com/muratsigmaz>` takip etmeyi unutma! ♥ Eggysden Hızlıyım mk');
   }
@@ -63,6 +63,11 @@ client.on('message', msg => {
   }
 });
 
+client.on('message', msg => {
+  if (msg.content === '!ban özel') {
+    msg.reply('AL BUNU AĞZINA https://media.giphy.com/media/uC9e2ojJn1ZXW/giphy.gif');
+  }
+});
 
 
 client.login(process.env.BOT_TOKEN);
