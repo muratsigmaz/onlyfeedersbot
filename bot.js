@@ -64,8 +64,8 @@ client.on('message', msg => {
 });
 
 client.on('message', msg => {
-  if (msg.content === 'elveda') {
-    msg.reply('dur gitme eggys sana muhtacım elimde sapım sana muhtacım :( xD!');
+  if (msg.content === '!ban özel') {
+    msg.reply('AL AĞZINA.... https://gph.is/145tQl0');
   }
 });
 
